@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/fontello.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center text-white">Видео курс по вёрстке для начинающих HTML & CSS</h1>
+          <div class="cur_play" data-bs-toggle="modal" data-bs-target="#myModal">
+            <div class="cur_triangle"></div>
+          </div>
+          <a href="#footer" class="btn btn-cur btn-lg text-uppercase">Заказать</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center color1 mb-5">О курсе</h2>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="cur_circle"><i class="icon-list-numbered"></i></div>
+            <h5 class="text-center">Структурированный материал</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="cur_circle"><i class="icon-rouble"></i></div>
+            <h5 class="text-center">Символическая цена</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="cur_circle"><i class="icon-group"></i></div>
+            <h5 class="text-center">Пожизненный доступ</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="cur_circle"><i class="icon-code"></i></div>
+            <h5 class="text-center">Практические задания</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="cur_circle"><i class="icon-thumbs-up"></i></div>
+            <h5 class="text-center">35 видео уроков (5 часов)</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="cur_circle"><i class="icon-mobile"></i></div>
+            <h5 class="text-center">Просмотр со смартфона</h5>
+            <div class="line"></div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="formwhom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center color2 mb-5">КУРС ДЛЯ ТЕХ, КТО</h2>
+        </div>
+      </div>
+      
+      <div class="row mb-5">
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Хочет научиться создавать сайты своими силами</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Учится современным инструментам разработки</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Еще не знает язык HTML и CSS, но хочет выучить</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Хочет стать крутым мастером и зарабатывать деньги</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <a href="#footer" class="btn btn-lg text-uppercase btn-cur">Заказать</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="schedule">
+    <div class="conteiner">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center color1 mb-5">ПРОГРАММА КУРСА</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12 accordion1">
+          <h4 class="text-center fw-bold mb-3 mt-3">Модуль 1<br>(HTML)</h4>
+          <div class="accordion accordion-flush" id="accordion1">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Введение
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion1">
+                <div class="accordion-body fst-italic">Краткий обзор того, что мы будем изучать в данном видео курсе.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Установка браузера и редактора кода
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion1">
+                <div class="accordion-body fst-italic">В этом уроке мы установим браузер Google Chrome и редактор кода VS Code.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Обзор функций редактора
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion1">
+                <div class="accordion-body fst-italic">Рассмотрим функции редактора VS Code и узнаем как с ним работать.</div>
+              </div> 
+            </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Первые HTML теги
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion1">
+                  <div class="accordion-body fst-italic">Рассмотрим функции редактора VS Code и узнаем как с ним работать.</div>
+                </div>
+              </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      Как задавать путь к файлу
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion1">
+                    <div class="accordion-body fst-italic">Рассмотрим функции редактора VS Code и узнаем как с ним работать.</div>
+                  </div>
+                </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading6">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        Создание списка
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordion1">
+                      <div class="accordion-body fst-italic">Рассмотрим функции редактора VS Code и узнаем как с ним работать.</div>
+                    </div>
+                  </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading7">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                          Создание таблиц
+                        </button>
+                      </h2>
+                      <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordion1">
+                        <div class="accordion-body fst-italic">Рассмотрим функции редактора VS Code и узнаем как с ним работать.</div>
+                      </div>
+                    </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading8">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                            Работа с текстом
+                          </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordion1">
+                          <div class="accordion-body fst-italic">Рассмотрим функции редактора VS Code и узнаем как с ним работать.</div>
+                        </div>
+                      </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="heading9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                              Создание формы
+                            </button>
+                          </h2>
+                          <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordion1">
+                            <div class="accordion-body fst-italic">Рассмотрим функции редактора VS Code и узнаем как с ним работать.</div>
+                          </div>
+                        </div>
+
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading10">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                                Универсальные атрибуты
+                              </button>
+                            </h2>
+                            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordion1">
+                              <div class="accordion-body fst-italic">Рассмотрим функции редактора VS Code и узнаем как с ним работать.</div>
+                            </div>
+                          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="learning">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center color2 mb-5">Описание</h2>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-9 col-sm-12">
+          <h5>В этом курсе вы узнаете как скачать <a href="https://getbootstrap.su/docs/5.2/getting-started/introduction/" target="_blank">Bootstrap 5</a> и подключить его в свой проект через CDN и локально. Мы начнем работу с Bootstrap 5. Я расскажу про отличия от Bootstrap 4, а если вы впервые знакомитесь с Bootstrap то вы узнаете для чего нужен этот CSS фреймворк. </h5>
+          <h5>Создадим шапку сайта на Bootstrap 5.</h5>
+          <h5>Сделаем градиентный фон с помощью генератора градиента, добавим ссылку на footer с плавной прокруткой, создадим кнопку play на чистом css с помощью генератора треугольников, а так же я покажу как сделать модальное окно на Bootstrap 5 и сделать любое видео адаптивным. </h5>
+          <h5>Мы сразу все проверим на мобильных устройствах и убедимся, что адаптивная версия выполнена корректно. Я расскажу вам как работать с сеткой Bootstrap 5, как устроена сетка Bootstrap 5 и как делать адаптивные элементы с помощью сетки Bootstrap 5 легко и быстро.</h5>
+          <h5>Мы создадим раздел с информацией о курсе, где будут использоваться иконки и сетка Bootstrap 5 размером 3 на 3 и размером 2 на 2. Покажу как сделать Аккордеон на Bootstrap 5 любой сложности. </h5>
+        </div>
+        <div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center">
+          <img src="img/mockup.png" alt="процесс обучения" class="img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <a href="#footer" class="btn btn-cur btn-lg text-uppercase">Заказать</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="author">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center color1 mb-5">ОБ АВТОРЕ</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-9 col-lg-12">
+          <h4>Исмаил Усеинов</h4>
+          <p>Занимаюсь веб-разработкой с 2013 года.</p>
+          <p>В 2017 году основал обучающий YouTube канал ITDoctor. Делюсь своими знаниями в области программирования и создания сайтов. Сформировал свою собственную методику обучения, которая позволяет ученикам максимально эффективно осваивать изучаемый материал.</p>
+          <p>Обучаю языкам HTML, CSS, JavaScript, PHP, работе с препроцессорами, сборщиками и системой контроля версий Git, а также многому другому из мира веб-технологий. Уже более тысячи моих учеников научились создавать сайты самостоятельно и зарабатывать на этом деньги.</p>
+          <p>В этом видео курсе я хочу научить вас основам сайтостроения - это языки HTML и CSS. Эти языки являются основой и знать их должен каждый, кто хочет развиваться в этой области. Вы получите знания, которые нужны в самом начале пути любого веб-разработчика и будите их использовать на протяжение всего своего пути. Вся теоретическая информация разложена по полочкам, доступно объясняется и подкрепляется практическими заданиями и домашними работами. Курс намерено не содержит лишней информации, тем самым позволяет лучше освоить материал, который действительно важен.</p>
+        </div>
+        <div class="col-xl-3 col-lg-12 text-uppercase">
+          <img src="img/author.png" alt="Автор" class="img-fluid cur_img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="review">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center color2 mb-5">ОТЗЫВЫ О КУРСЕ</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="cur_circle"><img src="img/people.jpg" alt="Человек" class="cur_person img-fluid mb-4"></div>
+        <h4 class="text-center">Кристина Трибой</h4>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-sm-12">
+          <p>Исмаил, спасибо Вам большое! Очень толковый курс у Вас получился, обучение прошло легко и интересно. Узнала много нового, отдельное спасибо за большое количество полезной информации в конце, очень пригодится в работе и сэкономит много времени. Очень рада, что открыла для себя Ваш канал.</p>
+          <p>Мне есть с чем сравнить, т.к. начала обучение с 0 по книгам и другим источникам в интернете 6 месяцев назад и уроки на канале ITDoctor могу смело назвать лучшими для новичков. Пересмотрела уже почти все, они очень качественные, хорошо продуманные, не затянутые. Автор всегда на связи, отвечает на вопросы, помогает - просто фантастика! ITDoctor - это уже бренд! С чем Вас, Исмаил и поздравляю!</p>
+          <div class="line2"></div>
+        </div>
+        <div class="col-xl-4 col-sm-12">
+          <p>Исмаил, спасибо Вам большое! Очень толковый курс у Вас получился, обучение прошло легко и интересно. Узнала много нового, отдельное спасибо за большое количество полезной информации в конце, очень пригодится в работе и сэкономит много времени. Очень рада, что открыла для себя Ваш канал.</p>
+          <p>Мне есть с чем сравнить, т.к. начала обучение с 0 по книгам и другим источникам в интернете 6 месяцев назад и уроки на канале ITDoctor могу смело назвать лучшими для новичков. Пересмотрела уже почти все, они очень качественные, хорошо продуманные, не затянутые. Автор всегда на связи, отвечает на вопросы, помогает - просто фантастика! ITDoctor - это уже бренд! С чем Вас, Исмаил и поздравляю!</p>
+          <div class="line2"></div>
+        </div>
+        <div class="col-xl-4 col-sm-12">
+          <p>Исмаил, спасибо Вам большое! Очень толковый курс у Вас получился, обучение прошло легко и интересно. Узнала много нового, отдельное спасибо за большое количество полезной информации в конце, очень пригодится в работе и сэкономит много времени. Очень рада, что открыла для себя Ваш канал.</p>
+          <p>Мне есть с чем сравнить, т.к. начала обучение с 0 по книгам и другим источникам в интернете 6 месяцев назад и уроки на канале ITDoctor могу смело назвать лучшими для новичков. Пересмотрела уже почти все, они очень качественные, хорошо продуманные, не затянутые. Автор всегда на связи, отвечает на вопросы, помогает - просто фантастика! ITDoctor - это уже бренд! С чем Вас, Исмаил и поздравляю!</p>
+          <div class="line2"></div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="buy">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center color1 mb-5">Купить</h2>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-5 col-sm-12">
+          <img src="img/preview.png" alt="Превью" class="img-fluid mx-auto d-block">
+          <p>Обучающий курс по изучению языка гипертекстовой разметки HTML и каскадных таблиц стилей CSS от автора образовательного канала ITDoctor. Это практический видеокурс: в каждой главе теоретический материал будет закрепляться множеством наглядных примеров кода.</p>
+          <form method="POST" action="https://yoomoney.ru/quickpay/confirm.xml">
+            <input type="hidden" name="receiver" value="41001xxxxxxxxxxxx"/>
+            <input type="hidden" name="label" value="$order_id"/>
+            <input type="hidden" name="quickpay-form" value="button"/>
+            <input type="hidden" name="sum" value="4568.25" data-type="number"/>
+            <input type="submit" value="Перевести" class="btn btn-lg text-uppercase btn-cur"/>
+        </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="https://www.youtube.com/" target="_blank" class="btn btn-outline-light "><i class="icon-youtube-play"></i></a>
+          <a href="https://mail.ru/" target="_blank" class="btn btn-outline-light"><i class="icon-mail-alt"></i></a>
+          <a href="https://telegram.org/" target="_blank" class="btn btn-outline-light"><i class="icon-paper-plane"></i></a>
+          <a href="https://vk.com/" target="_blank" class="btn btn-outline-light"><i class="icon-vkontakte"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" class="btn btn-outline-light"><i class="icon-instagram"></i></a>
+          <a href="https://github.com/" target="_blank" class="btn btn-outline-light"><i class="icon-github-circled"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Трейлер видео курса по HTML и CSS</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class='embed-container'>
+            <iframe src='https://www.youtube.com/embed//CvMxvb2D8Iw' frameborder='0' allowfullscreen></iframe>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
